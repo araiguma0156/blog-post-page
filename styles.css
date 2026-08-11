@@ -1,0 +1,83 @@
+/* 全要素 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+p {
+    line-height: 1.75;
+}
+
+/* ページ全体 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/* ヘッダー */
+header {
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+header h1 {
+    padding-bottom: 2.5vh;
+}
+header nav {
+    display: flex;
+    gap: 5vw;
+}
+header nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* メイン */
+main {
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
+/* クラス */
+.post-sentence {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+.benefits-list {
+    padding-top: 0.5vh;
+    padding-left: 2.5vw;
+    padding-bottom: 2.5vh;
+}
+.examples-image {
+    height: 20vh;
+    width: 50vw;
+}
+.example-caption {
+    padding-left: 14vw;
+}
+.example-quote {
+    border-left: 2px solid #222;
+    padding-left: 2.5vw;;
+    padding-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+.details {
+    padding-top: 1.5vh;
+}
+.codes {
+    width: 55vw;
+    margin-top: 1.5vh;
+    padding: 1.5vh 2.5vw;
+    border: 2px solid #222;
+    border-radius: 8px;
+}
+
+/* フッター */
+footer {
+    padding-top: 1.5vh;
+    padding-left: 5vw;
+    margin-bottom: 5vh;
+}
